@@ -1,17 +1,10 @@
-# Dependências
+cat > .gitignore << 'EOF'
 node_modules/
-pnpm-lock.yaml
-package-lock.json
-
-# Build
-dist/
-
-# Logs
 *.log
-
-# Environment
 .env
 .env.local
-
-# Sistema
 .DS_Store
+.vercel/
+dist/
+src/
+EOF
