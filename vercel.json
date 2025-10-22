@@ -1,6 +1,4 @@
-cat > vercel.json << 'EOF'
 {
-  "version": 2,
   "routes": [
     {
       "src": "/(.*)",
@@ -8,4 +6,3 @@ cat > vercel.json << 'EOF'
     }
   ]
 }
-EOF
