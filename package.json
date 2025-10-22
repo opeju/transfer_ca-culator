@@ -1,7 +1,5 @@
-cat > package.json << 'EOF'
 {
   "name": "transfer_calculator",
   "version": "1.0.0",
   "license": "MIT"
 }
-EOF
